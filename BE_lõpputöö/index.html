@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<!--kolmnurk -->
+
+    <div class="kolmnurk">
+        <h2>Pütaagoruse teoreemi kalkulaator</h2>
+        <p>Sisesta kaks kolmnurga poolt ja vastus on kolmas</p>
+        
+        <label for="sideA">1 lõik:</label>
+        <input type="number" id="sideA" placeholder="Sisesta lõik" />
+
+        <label for="sideB">2 lõik:</label>
+        <input type="number" id="sideB" placeholder="Sisesta lõik" />
+
+        <label for="hypotenuse">hüpotenuus:</label>
+        <input type="number" id="hypotenuse" placeholder="Sisesta hüpotenuus" />
+
+        <button  onclick="calculatePythagoras() " class="cal">Calculate</button>
+
+        <h3 class="vastus" id="result"></h3>
+    </div>
+
+
+<!--ring-->
+
+    <div class="ring">
+        <h2>Ringi arvutamis kalkulaator</h2>
+        <p>Sisesta üks number ja see annab need mida sul pole</p>
+
+            <label for="Raadius">Raadius:</label>
+        <input type="number" id="radius" placeholder="Sisesta Raadius " />
+
+        <label for="Diameeter">Diameeter:</label>
+        <input type="number" id="diameter" placeholder="Sisesta Diameeter" />
+
+        <label for="Ümbermõõt">Ümbermõõt:</label>
+        <input type="number" id="circumference" placeholder="Sisesta Ümbermõõt" />
+
+        <label for="Pindala">Pindala:</label>
+        <input type="number" id="area" placeholder="Sisesta Pindala" />
+
+        <button onclick="calculateCircle()" class="cal">Calculate</button>
+
+        <div class="vastus" id="circleResult"></div>
+    </div>
+
+
+
+
+    
+</body>
+</html>
+

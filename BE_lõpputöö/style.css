@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+p{
+    color: coral;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+h1{
+    color: coral;
+
+}
+h2{
+    color: coral;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+label{
+    color: coral;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 2rem;
+
+}
+input{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    margin: 2rem;
+    width: 300px;
+    height: 50px;
+    border-radius: 16px;
+
+}
+.cal{
+    color: coral;
+    background-color: rgb(34, 34, 34);
+    
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    margin: 2rem;
+    border: 0;
+    border-radius: 16px;
+    width: 300px;
+    height: 75px;
+}
+
+
+.kolmnurk{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ring{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.proov{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.vastus{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    color: rgb(80, 255, 185);
+}
